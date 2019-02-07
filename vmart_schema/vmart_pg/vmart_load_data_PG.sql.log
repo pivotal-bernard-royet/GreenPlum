@@ -1,0 +1,23 @@
+Timing is on.
+COPY 2557
+Time: 3194,139 ms
+COPY 5000
+Time: 2270,657 ms
+COPY 500
+Time: 2192,042 ms
+COPY 1000
+Time: 1807,239 ms
+COPY 50
+Time: 1101,293 ms
+COPY 50000
+Time: 4095,196 ms
+COPY 10000
+Time: 4232,618 ms
+COPY 100
+Time: 1666,826 ms
+COPY 100
+Time: 2527,356 ms
+COPY 1000
+Time: 3125,219 ms
+COPY 200
+Time: 5447,452 ms
