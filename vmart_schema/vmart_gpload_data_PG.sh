@@ -1,3 +1,5 @@
+export data_directory=$1
+
 gpload -d vmart -f Call_Center_Dimension.gpload.yml
 gpload -d vmart -f Customer_Dimension.gpload.yml
 gpload -d vmart -f Date_Dimension.gpload.yml

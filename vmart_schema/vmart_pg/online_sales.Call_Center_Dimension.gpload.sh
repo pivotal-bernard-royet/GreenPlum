@@ -1,1 +1,0 @@
-gpload -d vmart -f online_sales.Call_Center_Dimension.gpload.yml

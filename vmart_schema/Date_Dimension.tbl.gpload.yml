@@ -3,7 +3,7 @@ GPLOAD:
   INPUT:
     - SOURCE:
        FILE:
-         - /home/gpadmin/broyet/Date_Dimension.tbl
+         - ${data_directory}/Date_Dimension.tbl
     - FORMAT: text
     - DELIMITER: '|'
     - NULL_AS: ''

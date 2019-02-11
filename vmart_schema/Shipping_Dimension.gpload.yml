@@ -3,7 +3,7 @@ GPLOAD:
   INPUT:
     - SOURCE:
        FILE:
-         - /home/gpadmin/broyet/Shipping_Dimension.tbl
+         - ${data_directory}/Shipping_Dimension.tbl
     - FORMAT: text
     - DELIMITER: '|'
     - NULL_AS: ''

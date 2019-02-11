@@ -3,7 +3,7 @@ GPLOAD:
   INPUT:
     - SOURCE:
        FILE:
-         - /home/gpadmin/broyet/Call_Center_Dimension.tbl
+         - ${data_directory}/Call_Center_Dimension.tbl
     - FORMAT: text
     - DELIMITER: '|'
     - NULL_AS: ''

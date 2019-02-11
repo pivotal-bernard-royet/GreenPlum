@@ -3,7 +3,7 @@ GPLOAD:
   INPUT:
     - SOURCE:
        FILE:
-         - /home/gpadmin/broyet/Online_Sales_Fact.tbl
+         - ${data_directory}/Online_Sales_Fact.tbl
     - FORMAT: text
     - DELIMITER: '|'
     - NULL_AS: ''

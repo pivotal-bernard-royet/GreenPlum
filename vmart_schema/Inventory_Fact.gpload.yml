@@ -3,7 +3,7 @@ GPLOAD:
   INPUT:
     - SOURCE:
        FILE:
-         - /home/gpadmin/broyet/Inventory_Fact.tbl
+         - ${data_directory}/Inventory_Fact.tbl
     - FORMAT: text
     - DELIMITER: '|'
     - NULL_AS: ''
