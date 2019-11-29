@@ -29,6 +29,8 @@ PARTITION yr_7 START (2192) INCLUSIVE
 END (2557) INCLUSIVE
 );
 
+-- INDEXES Optionnal
+
 drop index if exists store.store_sales_fact_part_ix1;
 drop index if exists store.store_sales_fact_part_ix2;
 drop index if exists store.store_sales_fact_part_ix3;
