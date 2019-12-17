@@ -63,13 +63,13 @@ To run:
 
 Example:
 
-./vmart_genTime 2003 2016 > Time.txt
+./vmart_genTime 2003 2018 > Time.txt
 
 ==================
 GreenPlum Specific :
 - *.gpload.yml : YML files to load the data file using gpload
-- vmart_gpload_data_PG.sh : shell script to load the data file using gpload
-- vmart_define_schema_PG.sql : sql script to create the schemas/tables 
-- vmart_define_schema_PGv6.sql : sql script to create the schemas/tables for GP v6
-- vmart_define_schema_PG_add.sql : sql script to create a partitionned table for the biggest fact table
+- vmart_gpload_data_GPDB.sh : shell script to load the data file using gpload
+- vmart_define_schema_GPDB_v5.sql : sql script to create the schemas/tables 
+- vmart_define_schema_GPDB_v6.sql : sql script to create the schemas/tables for GPDB v6
+- vmart_define_schema_GPDB_add.sql : sql script to create a partitionned table for the biggest fact table
 
